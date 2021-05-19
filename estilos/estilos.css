@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 4px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #add8e6;
+	color: #000000;
+}
+
+ #contenedor{
+ 	width: 1000px;
+ 	margin: auto;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+ header{
+ 	height: 150px;
+ 	background: #000000;
+ }
+
+ header h1{
+ 	font-size: 50px;
+ 	text-align: center;
+ 	line-height: 150px;
+ 	background: #d3d3d3
+ }
+
+ nav{
+ 	background: orange;
+ 	height: 60px;
+ }
+
+ nav h2 {
+ 	font-size: 40px;
+ 	text-align: center;
+ 	line-height: 60px;
+
+ }
+ #Contenido{
+ 	width: 700px;
+ 	height: 500px;
+ 	float: left;
+ 	background: #dda0dd;
+ 	margin-top: 10px;
+ 	margin-right: 10px;
+
+ }
+
+ #Contenido h2 p{
+ 	font-size: 20px;
+ 	text-align: center;
+ 	line-height:500px;
+ }
+img {
+  width: 45%;
+  height: 40%;
+  margin: auto;
+  padding: 0;
+  display:block;
+}
+ aside{
+ 	width: 250px;
+ 	height: 500px;
+ 	background: #fafad2;
+ 	margin-top: 10px;
+ 	float: right;
+ }
+
+ ul{
+ 	font-style: italic;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+img {
+	width: 45%;
+  height: 35%;
+  margin: auto;
+  padding: 0;
+  display:block;
+
+}
+aside h2{
+	font-size: 20px;
+	line-height: 25px;
+    text-align: center;
+    background: #fafad2;
+
+}
+
+footer{
+	background: #d3d3d3;
+	clear: both;
+	font-style: italic;
+	font-size: 30px;
+}
+footer h2{
+	margin: 3px;
+	font-size: 40px;
+	line-height: 100px;
+	font-style: italic;
+	text-align: center;
+}
